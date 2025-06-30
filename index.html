@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TETRA SNAP</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>TETRA SNAP</h1>
+    <div class="controls">
+      <button id="toggleRuler">定規 ON/OFF</button>
+      <button id="capture">📸 撮影</button>
+    </div>
+    <div class="preview">
+      <video id="video" autoplay playsinline></video>
+      <img id="ruler" src="tetra-ruler.png" alt="定規" />
+    </div>
+    <canvas id="canvas" style="display:none;"></canvas>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
